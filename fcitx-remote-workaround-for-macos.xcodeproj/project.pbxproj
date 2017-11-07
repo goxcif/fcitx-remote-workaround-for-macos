@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BD53A4D91FA5A7860023C8C3 /* fcitx-remote-workaround-for-macos */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "fcitx-remote-workaround-for-macos"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD53A4D91FA5A7860023C8C3 /* fcitx-remote */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "fcitx-remote"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD53A4DC1FA5A7860023C8C3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BD53A4E31FA5A7AA0023C8C3 /* InputSourceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputSourceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,7 +51,7 @@
 		BD53A4DA1FA5A7860023C8C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD53A4D91FA5A7860023C8C3 /* fcitx-remote-workaround-for-macos */,
+				BD53A4D91FA5A7860023C8C3 /* fcitx-remote */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,9 +68,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD53A4D81FA5A7860023C8C3 /* fcitx-remote-workaround-for-macos */ = {
+		BD53A4D81FA5A7860023C8C3 /* fcitx-remote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD53A4E01FA5A7860023C8C3 /* Build configuration list for PBXNativeTarget "fcitx-remote-workaround-for-macos" */;
+			buildConfigurationList = BD53A4E01FA5A7860023C8C3 /* Build configuration list for PBXNativeTarget "fcitx-remote" */;
 			buildPhases = (
 				BD53A4D51FA5A7860023C8C3 /* Sources */,
 				BD53A4D61FA5A7860023C8C3 /* Frameworks */,
@@ -80,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = "fcitx-remote-workaround-for-macos";
+			name = "fcitx-remote";
 			productName = "fcitx-remote-workaround-for-macos";
-			productReference = BD53A4D91FA5A7860023C8C3 /* fcitx-remote-workaround-for-macos */;
+			productReference = BD53A4D91FA5A7860023C8C3 /* fcitx-remote */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD53A4D81FA5A7860023C8C3 /* fcitx-remote-workaround-for-macos */,
+				BD53A4D81FA5A7860023C8C3 /* fcitx-remote */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +266,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD53A4E01FA5A7860023C8C3 /* Build configuration list for PBXNativeTarget "fcitx-remote-workaround-for-macos" */ = {
+		BD53A4E01FA5A7860023C8C3 /* Build configuration list for PBXNativeTarget "fcitx-remote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD53A4E11FA5A7860023C8C3 /* Debug */,

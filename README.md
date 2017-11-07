@@ -9,7 +9,7 @@
 执行下面命令编译并安装，
 
 ```
-xcodebuild clean install -project fcitx-remote-workaround-for-macos.xcodeproj -target fcitx-remote-workaround-for-macos -configuration Release DSTROOT="/"
+xcodebuild clean install -project fcitx-remote-workaround-for-macos.xcodeproj -target fcitx-remote -configuration Release DSTROOT="/"
 ```
 
 编译后，`fcitx-remote -n` 记下中文输入法的 ID，然后替换代码中的 `com.apple.inputmethod.SCIM.ITABC`，再次编译并安装。
